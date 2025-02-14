@@ -17,6 +17,7 @@ public class CheckedException1 {
         } catch (IOException e) {
             // Handle file-related exceptions (e.g., file not found, permission issues)
             System.out.println("File is not present. " + e.getMessage());
+
         }
     }
 }
