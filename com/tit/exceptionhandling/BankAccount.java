@@ -35,6 +35,7 @@ public class BankAccount {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         BankAccount account = new BankAccount(1000.00); // Initial balance of 1000
+        System.out.println();
         System.out.println("Enter withdraw amount: ");
         double amountToWithdraw = sc.nextDouble(); // Amount to withdraw
         try {
