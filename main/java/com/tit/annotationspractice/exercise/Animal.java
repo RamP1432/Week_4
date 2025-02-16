@@ -1,4 +1,4 @@
-package com.tit.annotationpractice;
+package com.tit.annotationspractice.exercise;
 
 // Parent class Animal
 public class Animal {
