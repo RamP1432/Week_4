@@ -37,7 +37,7 @@ public class Problem4 {
             Constructor<Student> constructor = studentClass.getConstructor(String.class, int.class);
 
             // Create an instance of Student class using the constructor
-            Student student = constructor.newInstance("John Doe", 101);
+            Student student = constructor.newInstance("John Wick", 101);
 
             // Display the created instance
             System.out.println("Created Student instance: " + student);
